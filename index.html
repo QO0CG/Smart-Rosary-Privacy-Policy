@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية - المسبحة الذكية</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #212121;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .dark-mode .header {
+      border-bottom: 1px solid #333;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+
+    .dark-mode .header h1 {
+      color: #9c4dff;
+    }
+
+    .header p {
+      color: #666;
+    }
+
+    .dark-mode .header p {
+      color: #aaa;
+    }
+
+    .content {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .dark-mode .content {
+      background: #1e1e1e;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #6a1b9a;
+      margin: 25px 0 15px;
+      font-size: 1.5rem;
+    }
+
+    .dark-mode h2 {
+      color: #9c4dff;
+    }
+
+    h3 {
+      color: #6a1b9a;
+      margin: 20px 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .dark-mode h3 {
+      color: #9c4dff;
+    }
+
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    ul, ol {
+      margin: 15px 0;
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      background-color: rgba(106, 27, 154, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+      border-right: 3px solid #6a1b9a;
+    }
+
+    .dark-mode .highlight {
+      background-color: rgba(156, 77, 255, 0.1);
+      border-right: 3px solid #9c4dff;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .dark-mode .contact-info {
+      border-top: 1px solid #333;
+    }
+
+    .back-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #6a1b9a;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .back-btn {
+      background: #9c4dff;
+    }
+
+    .back-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(106, 27, 154, 0.3);
+    }
+
+    .dark-mode .back-btn:hover {
+      box-shadow: 0 5px 15px rgba(156, 77, 255, 0.3);
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .toggle-btn {
+      background: #9c4dff;
+    }
+
+    .toggle-btn:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      
+      .header h1 {
+        font-size: 1.7rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+      
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleDarkMode()">
+    <span id="toggle-text">الوضع الليلي</span>
+  </button>
+
+  <div class="header">
+    <h1>سياسة الخصوصية</h1>
+    <p>لتطبيق "المسبحة الذكية"</p>
+  </div>
+
+  <div class="content">
+    <p>مرحباً بك في سياسة الخصوصية لتطبيق "المسبحة الذكية". نحن ندرك أهمية خصوصيتك ونلتزم بحماية معلوماتك الشخصية. تشرح هذه السياسة كيفية جمع واستخدام ومشاركة معلوماتك عند استخدام تطبيقنا.</p>
+
+    <h2>1. المعلومات التي نجمعها</h2>
+    
+    <h3>أ. المعلومات التي تقدمها بنفسك</h3>
+    <p>عند استخدام تطبيق "المسبحة الذكية"، قد نقوم بتخزين المعلومات التالية محلياً على جهازك:</p>
+    <ul>
+      <li>إحصائيات التسبيح والذكر (عدد التسبيحات، الجلسات المحفوظة)</li>
+      <li>الأذكار المفضلة لديك</li>
+      <li>المهام والتحديات التي أكملتها</li>
+      <li>الإعدادات المفضلة (الوضع الليلي، الأصوات، الاهتزاز)</li>
+    </ul>
+
+    <h3>ب. المعلومات التي نجمعها تلقائياً</h3>
+    <p>قد نقوم بتخزين المعلومات التالية لتقديم تجربة أفضل:</p>
+    <ul>
+      <li>إحصائيات الاستخدام (عدد مرات فتح التطبيق، الصفحات الأكثر زيارة)</li>
+      <li>التفضيلات الشخصية (لون السمة، الإعدادات)</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>ملاحظة هامة:</strong> جميع البيانات التي نجمعها يتم تخزينها محلياً على جهازك فقط ولا يتم إرسالها إلى أي خوادم خارجية. نحن لا نجمع أي معلومات شخصية يمكن استخدامها لتحديد هويتك.</p>
+    </div>
+
+    <h2>2. كيفية استخدام معلوماتك</h2>
+    <p>نستخدم المعلومات التي نجمعها للأغراض التالية:</p>
+    <ul>
+      <li>تقديم وتخصيص خدمات التطبيق</li>
+      <li>تحسين تجربة المستخدم وتطوير ميزات جديدة</li>
+      <li>تتبع تقدمك في أداء الأذكار والتسبيحات</li>
+      <li>تقديم إشعارات تذكيرية (إذا قمت بتمكينها)</li>
+    </ul>
+
+    <h2>3. مشاركة المعلومات</h2>
+    <p>نحن <strong>لا نشارك</strong> أي من معلوماتك مع أطراف ثالثة. جميع البيانات تبقى محفوظة على جهازك ولا يتم نقلها خارج التطبيق إلا إذا قمت بمشاركتها بنفسك (مثل مشاركة ذكر مع الأصدقاء).</p>
+
+    <h2>4. تخزين البيانات</h2>
+    <p>يتم تخزين جميع بياناتك محلياً على جهازك باستخدام تقنية تخزين المتصفح (LocalStorage). يمكنك في أي وقت:</p>
+    <ul>
+      <li>تصدير بياناتك إلى ملف JSON</li>
+      <li>استيراد بيانات من ملف سابق</li>
+      <li>مسح جميع البيانات من خلال إعادة تعيين التطبيق</li>
+    </ul>
+
+    <h2>5. الإذونات</h2>
+    <p>قد يطلب التطبيق الإذونات التالية:</p>
+    <ul>
+      <li><strong>الإشعارات:</strong> لإرسال تذكيرات بأذكار الصباح والمساء (اختياري)</li>
+      <li><strong>الاهتزاز:</strong> لتوفير ردود فعل عند النقر (اختياري)</li>
+      <li><strong>مشاركة المحتوى:</strong> لمشاركة الأذكار مع الآخرين (عند الطلب)</li>
+    </ul>
+
+    <h2>6. أمان المعلومات</h2>
+    <p>نحن نحرص على حماية معلوماتك من خلال:</p>
+    <ul>
+      <li>تخزين البيانات محلياً فقط على جهازك</li>
+      <li>عدم جمع أي معلومات شخصية حساسة</li>
+      <li>تقديم خيارات تصدير ونسخ احتياطي للبيانات</li>
+    </ul>
+
+    <h2>7. حقوقك</h2>
+    <p>بما أن بياناتك مخزنة محلياً على جهازك، فلديك السيطرة الكاملة عليها ويمكنك:</p>
+    <ul>
+      <li>الوصول إلى بياناتك من خلال خيارات التصدير</li>
+      <li>تعديل بياناتك من خلال واجهة التطبيق</li>
+      <li>حذف بياناتك من خلال إعادة تعيين التطبيق أو مسح بيانات المتصفح</li>
+    </ul>
+
+    <h2>8. التغييرات على سياسة الخصوصية</h2>
+    <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بإعلامك بأي تغييرات جوهرية من خلال نشر السياسة المحدثة في التطبيق. ننصحك بمراجعة هذه السياسة بشكل دوري للاطلاع على أي تغييرات.</p>
+
+    <h2>9. التواصل معنا</h2>
+    <div class="contact-info">
+      <p>إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية هذه أو ممارساتنا المتعلقة بالبيانات، يرجى التواصل معنا من خلال:</p>
+      <p><strong>البريد الإلكتروني:</strong> privacy@tasmbeh.app</p>
+    </div>
+
+    <p>آخر تحديث: 1 يناير 2023</p>
+
+    <a href="index.html" class="back-btn">العودة إلى التطبيق</a>
+  </div>
+
+  <script>
+    // التحقق من تفضيل الوضع الليلي
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.body.classList.add('dark-mode');
+      document.getElementById('toggle-text').textContent = 'الوضع النهاري';
+    }
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية - المسبحة الذكية</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #212121;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .dark-mode .header {
+      border-bottom: 1px solid #333;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+
+    .dark-mode .header h1 {
+      color: #9c4dff;
+    }
+
+    .header p {
+      color: #666;
+    }
+
+    .dark-mode .header p {
+      color: #aaa;
+    }
+
+    .content {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .dark-mode .content {
+      background: #1e1e1e;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #6a1b9a;
+      margin: 25px 0 15px;
+      font-size: 1.5rem;
+    }
+
+    .dark-mode h2 {
+      color: #9c4dff;
+    }
+
+    h3 {
+      color: #6a1b9a;
+      margin: 20px 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .dark-mode h3 {
+      color: #9c4dff;
+    }
+
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    ul, ol {
+      margin: 15px 0;
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      background-color: rgba(106, 27, 154, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+      border-right: 3px solid #6a1b9a;
+    }
+
+    .dark-mode .highlight {
+      background-color: rgba(156, 77, 255, 0.1);
+      border-right: 3px solid #9c4dff;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .dark-mode .contact-info {
+      border-top: 1px solid #333;
+    }
+
+    .back-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #6a1b9a;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .back-btn {
+      background: #9c4dff;
+    }
+
+    .back-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(106, 27, 154, 0.3);
+    }
+
+    .dark-mode .back-btn:hover {
+      box-shadow: 0 5px 15px rgba(156, 77, 255, 0.3);
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .toggle-btn {
+      background: #9c4dff;
+    }
+
+    .toggle-btn:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      
+      .header h1 {
+        font-size: 1.7rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+      
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleDarkMode()">
+    <span id="toggle-text">الوضع الليلي</span>
+  </button>
+
+  <div class="header">
+    <h1>سياسة الخصوصية</h1>
+    <p>لتطبيق "المسبحة الذكية"</p>
+  </div>
+
+  <div class="content">
+    <p>مرحباً بك في سياسة الخصوصية لتطبيق "المسبحة الذكية". نحن ندرك أهمية خصوصيتك ونلتزم بحماية معلوماتك الشخصية. تشرح هذه السياسة كيفية جمع واستخدام ومشاركة معلوماتك عند استخدام تطبيقنا.</p>
+
+    <h2>1. المعلومات التي نجمعها</h2>
+    
+    <h3>أ. المعلومات التي تقدمها بنفسك</h3>
+    <p>عند استخدام تطبيق "المسبحة الذكية"، قد نقوم بتخزين المعلومات التالية محلياً على جهازك:</p>
+    <ul>
+      <li>إحصائيات التسبيح والذكر (عدد التسبيحات، الجلسات المحفوظة)</li>
+      <li>الأذكار المفضلة لديك</li>
+      <li>المهام والتحديات التي أكملتها</li>
+      <li>الإعدادات المفضلة (الوضع الليلي، الأصوات، الاهتزاز)</li>
+    </ul>
+
+    <h3>ب. المعلومات التي نجمعها تلقائياً</h3>
+    <p>قد نقوم بتخزين المعلومات التالية لتقديم تجربة أفضل:</p>
+    <ul>
+      <li>إحصائيات الاستخدام (عدد مرات فتح التطبيق، الصفحات الأكثر زيارة)</li>
+      <li>التفضيلات الشخصية (لون السمة، الإعدادات)</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>ملاحظة هامة:</strong> جميع البيانات التي نجمعها يتم تخزينها محلياً على جهازك فقط ولا يتم إرسالها إلى أي خوادم خارجية. نحن لا نجمع أي معلومات شخصية يمكن استخدامها لتحديد هويتك.</p>
+    </div>
+
+    <h2>2. كيفية استخدام معلوماتك</h2>
+    <p>نستخدم المعلومات التي نجمعها للأغراض التالية:</p>
+    <ul>
+      <li>تقديم وتخصيص خدمات التطبيق</li>
+      <li>تحسين تجربة المستخدم وتطوير ميزات جديدة</li>
+      <li>تتبع تقدمك في أداء الأذكار والتسبيحات</li>
+      <li>تقديم إشعارات تذكيرية (إذا قمت بتمكينها)</li>
+    </ul>
+
+    <h2>3. مشاركة المعلومات</h2>
+    <p>نحن <strong>لا نشارك</strong> أي من معلوماتك مع أطراف ثالثة. جميع البيانات تبقى محفوظة على جهازك ولا يتم نقلها خارج التطبيق إلا إذا قمت بمشاركتها بنفسك (مثل مشاركة ذكر مع الأصدقاء).</p>
+
+    <h2>4. تخزين البيانات</h2>
+    <p>يتم تخزين جميع بياناتك محلياً على جهازك باستخدام تقنية تخزين المتصفح (LocalStorage). يمكنك في أي وقت:</p>
+    <ul>
+      <li>تصدير بياناتك إلى ملف JSON</li>
+      <li>استيراد بيانات من ملف سابق</li>
+      <li>مسح جميع البيانات من خلال إعادة تعيين التطبيق</li>
+    </ul>
+
+    <h2>5. الإذونات</h2>
+    <p>قد يطلب التطبيق الإذونات التالية:</p>
+    <ul>
+      <li><strong>الإشعارات:</strong> لإرسال تذكيرات بأذكار الصباح والمساء (اختياري)</li>
+      <li><strong>الاهتزاز:</strong> لتوفير ردود فعل عند النقر (اختياري)</li>
+      <li><strong>مشاركة المحتوى:</strong> لمشاركة الأذكار مع الآخرين (عند الطلب)</li>
+    </ul>
+
+    <h2>6. أمان المعلومات</h2>
+    <p>نحن نحرص على حماية معلوماتك من خلال:</p>
+    <ul>
+      <li>تخزين البيانات محلياً فقط على جهازك</li>
+      <li>عدم جمع أي معلومات شخصية حساسة</li>
+      <li>تقديم خيارات تصدير ونسخ احتياطي للبيانات</li>
+    </ul>
+
+    <h2>7. حقوقك</h2>
+    <p>بما أن بياناتك مخزنة محلياً على جهازك، فلديك السيطرة الكاملة عليها ويمكنك:</p>
+    <ul>
+      <li>الوصول إلى بياناتك من خلال خيارات التصدير</li>
+      <li>تعديل بياناتك من خلال واجهة التطبيق</li>
+      <li>حذف بياناتك من خلال إعادة تعيين التطبيق أو مسح بيانات المتصفح</li>
+    </ul>
+
+    <h2>8. التغييرات على سياسة الخصوصية</h2>
+    <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بإعلامك بأي تغييرات جوهرية من خلال نشر السياسة المحدثة في التطبيق. ننصحك بمراجعة هذه السياسة بشكل دوري للاطلاع على أي تغييرات.</p>
+
+<p>اخر تحديث: 21 اكتوبر 2025</p>
+
+  </div>
+
+  <script>
+    // التحقق من تفضيل الوضع الليلي
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.body.classList.add('dark-mode');
+      document.getElementById('toggle-text').textContent = 'الوضع النهاري';
+    }
+
+    // تبديل الوضع الليلي
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      
+      if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'true');
+        document.getElementById('toggle-text').textContent = 'الوضع النهاري';
+      } else {
+        localStorage.setItem('darkMode', 'false');
+        document.getElementById('toggle-text').textContent = 'الوضع الليلي';
+      }
+    }
+  </script>
+</body>
+</html>
